@@ -1,0 +1,20 @@
+create table accion_control(
+customername varchar not null,
+feed_name varchar not null,
+file_name_conven varchar not null,
+schema_name varchar not null, 
+frequency varchar not null,
+num_file int not null,
+requirment varchar not null,
+phn_num varchar,
+email_id varchar not null,
+avg_num_of_records int not null,
+file_size_variance_percentage int not null,
+number_of_run int not null,
+header varchar not null,
+delimitter varchar,
+expected_column_count int not null,
+extension varchar not null,
+last_run date not null,
+record_check_indicator varchar
+);
